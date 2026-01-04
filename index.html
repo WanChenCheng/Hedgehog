@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>小刺蝟之旅</title>
+  <meta name="theme-color" content="#E6D6C3" />
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="app">
+    <header>
+      <div class="title">
+        <h1>小刺蝟之旅</h1>
+        <div class="sub" id="subtitle">睡前陪伴:D</div>
+      </div>
+
+      <div class="right">
+        <div class="pill" title="設定生日日期（MM-DD）">
+          🎂 <input id="birthdayInput" value="09-18" inputmode="numeric" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="canvasWrap">
+        <canvas id="c"></canvas>
+      </div>
+
+      <div class="modeTabs" id="tabs"></div>
+
+      <div class="panel" id="panel">
+        <!-- dynamic -->
+      </div>
+    </main>
+  </div>
+
+  <script src="./draw_hedgehog.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
+
